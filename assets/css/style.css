@@ -23,6 +23,7 @@ img {
 ul{
     list-style: none;
 }
+/* header css */
 
 .header{
     background-color: #CBCAC8;
@@ -59,6 +60,21 @@ ul{
  .menu ul li a:hover{
      color: #fff;
      background-color: tomato;
+ } 
+ /* banner css */
+ .banner img{
+     width: 100%;
  }
- .banner{}
- .banner img{}
+ /* service css */
+ .service-title h2{
+     text-align: center;
+     text-transform: uppercase;
+     color: #333;
+     padding: 20px;
+ }
+ .single-service{
+     float: left;
+     width: 313px;
+     margin-right: 20px;
+     background-color:#CBCAC8;
+ }
