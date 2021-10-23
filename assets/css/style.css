@@ -1,3 +1,4 @@
+/* common code */
 *{
     margin: 0;
     padding: 0;
@@ -7,3 +8,23 @@ body {
     font-size:14px;
     line-height:22px;
 }
+.area {
+    width:1000px;
+    margin: 0 auto;
+}
+ .menu{
+     float:left;
+ }
+ ul{
+     list-style: none;
+ }
+ ul li{
+     display: inline-block;
+ }
+ ul li a{
+     text-decoration: none;
+     margin: 10px;
+     padding: 20px;
+     font-size: 18px;
+     text-transform:uppercase;
+ }
