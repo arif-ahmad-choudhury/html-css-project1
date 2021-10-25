@@ -78,6 +78,14 @@ ul{
      margin-right: 20px;
      background-color:#CBCAC8;
  }
+ .contact-area{
+     background-color: #bee2f3;
+ }
+ .contact-content{
+     text-align: center;
+     font-size:28px;
+     padding: 20px;
+ }
  .footer-area{
      background-color: #CBCAC8;
  }
