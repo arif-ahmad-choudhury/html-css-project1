@@ -23,6 +23,18 @@ img {
 ul{
     list-style: none;
 }
+/* btn css */
+.btn{
+ background-color:tomato;
+ display: inline-block;
+ text-transform: capitalize;
+ text-decoration: none;
+ padding:10px 30px;
+ color: #fff;
+ font-size: 20px;
+ margin-top:20px;
+
+}
 /* header css */
 
 .header{
@@ -66,18 +78,45 @@ ul{
      width: 100%;
  }
  /* service css */
- .service-title h2{
+ .services{
+
+ }
+ .service-title h4{
      text-align: center;
-     text-transform: uppercase;
-     color: #333;
-     padding: 20px;
+     text-transform: capitalize;
+     font-size:40px;
+     margin:40px 0;
+ }
+ .service{
+
  }
  .single-service{
+     background-color: teal;
      float: left;
-     width: 313px;
+     width: 319px;
      margin-right: 20px;
      background-color:#CBCAC8;
+     padding: 20px;
+     color: #fff;
  }
+ .single-service:last-child{
+     margin-right: 0;
+ }
+ .single-service h4{
+ text-align: center;
+ font-size:30px;
+ text-transform:capitalize;
+ margin-bottom: 25px;
+ }
+ .single-service img{
+
+}
+.single-service p{
+
+}
+.single-service a{
+
+}
  .contact-area{
      background-color: #bee2f3;     
  }
