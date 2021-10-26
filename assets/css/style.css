@@ -33,7 +33,10 @@ ul{
  color: #fff;
  font-size: 20px;
  margin-top:20px;
-
+transition: .3s;
+}
+.btn:hover{
+    background-color: #ff7720;
 }
 /* header css */
 
