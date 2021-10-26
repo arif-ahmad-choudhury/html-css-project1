@@ -164,11 +164,15 @@ color:tomato;
      font-size:28px;
      padding: 20px;
  }
-
- .footer-area{
-     background-color: #CBCAC8;
- }
- .footer-content{
+/* footer css */
+ .footer{
+     background-color:teal;
      text-align: center;
-     padding: 20px;     
+     padding: 20px;
+ }
+ .footer p{
+     color: #fff;
+     text-transform:capitalize;
+     font: size 22px;
+     font-weight: bold;   
  }
