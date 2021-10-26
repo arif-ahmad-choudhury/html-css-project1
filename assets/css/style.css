@@ -80,6 +80,36 @@ transition: .3s;
  .banner img{
      width: 100%;
  }
+ /* page banner css */
+ .page-banner{
+     background-size: cover;
+     background-position: center;
+     padding: 110px 0;
+     position: relative;
+     z-index: 2;
+
+
+ }
+ .page-banner:before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color:#333;
+    top: 0;
+    left: 0;
+    opacity: 0.70;
+    z-index: -1;
+}
+.page-banner h2{
+     top: 50%;
+     left: 50%;
+     transform:translate(-50%, -50%);
+     color:#fff;
+     font-size:30px;
+     position:absolute;
+     text-transform:uppercase;
+}
  /* service css */
  .services{
 
@@ -164,6 +194,7 @@ color:tomato;
      font-size:28px;
      padding: 20px;
  }
+
 /* footer css */
  .footer{
      background-color:teal;
