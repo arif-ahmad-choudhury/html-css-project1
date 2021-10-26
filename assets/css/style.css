@@ -113,24 +113,21 @@ transition: .3s;
  /* about css  */
  .about{
  padding: 60px 0;
+ background-color: #ebf1f3;
  }
  .about-left{
  float:left;
  width:700px;
  margin-right:30px;
+ padding-left: 30px;
  }
- .about-left h4,.about-menu h4{
+ .about-left h2,.about-menu h2{
      text-transform: capitalize;
      font: size 45px;
      margin-bottom:18px;
 
 }
-.about-left p{
 
-}
-.about-left a{
-
-}
  .about-menu{
  float:right;
  width: 270px;
@@ -142,16 +139,21 @@ transition: .3s;
 .about-menu ul li{
 background-image: url(../img/arrow.png);
 background-repeat: no-repeat;
-margin-left: 10px;
+padding-left: 10px;
+margin-bottom: 10px;
+padding-bottom: 10px;
+border-bottom: 1px solid rgb(211, 97, 97);
+
 }
 .about-menu ul li a{
- color: rgb(206, 75, 75);
+ color: rgb(44, 47, 48);
  text-decoration: none;
  font-size: 20px;
  display: block;
+ transition: .3s;
 }
 .about-menu ul li a:hover{
-
+color:tomato;
 }
 
  .contact-area{
