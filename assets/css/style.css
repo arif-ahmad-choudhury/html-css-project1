@@ -173,6 +173,6 @@ color:tomato;
  .footer p{
      color: #fff;
      text-transform:capitalize;
-     font: size 22px;
+     font-size: 22px;
      font-weight: bold;   
  }
