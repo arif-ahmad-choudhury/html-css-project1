@@ -97,10 +97,9 @@ transition: .3s;
      background-color: teal;
      float: left;
      width: 319px;
-     margin-right: 20px;
-     background-color:#CBCAC8;
-     padding: 20px;
-     color: #fff;
+     margin-right: 20px;    
+     padding: 20px;   
+     color: #fff; 
  }
  .single-service:last-child{
      margin-right: 0;
