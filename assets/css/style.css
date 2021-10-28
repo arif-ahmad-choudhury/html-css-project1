@@ -233,3 +233,31 @@ color:tomato;
   border: 1px solid #ddd;
   padding: 3px;
  }
+ .contact{
+     padding: 60px 0;
+ }
+ .contact-form{
+     float:left;
+     width:670px;
+     margin-right:20px;
+     padding-left: 10px;
+ }
+ .contact-form h2,.contact-address h2{
+    text-transform: capitalize;
+    font-size:26px;
+    margin-bottom:20px;
+ }
+ .contact-address{
+     float:right;
+     width:300px;
+
+ }
+ .contact-address h2{
+
+ }
+ .map{
+
+ }
+ .map iframe{
+
+ }
