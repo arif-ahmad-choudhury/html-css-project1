@@ -131,8 +131,12 @@ transition: .3s;
      padding: 20px;   
      color: #fff; 
  }
- .single-service:last-child{
+ .single-service:last-child,.service-page .single-service:nth-child(4){
      margin-right: 0;
+ }
+ .service-page .single-service{
+     width: 235px;
+     margin-bottom: 20px;
  }
  .single-service h4{
  text-align: center;
