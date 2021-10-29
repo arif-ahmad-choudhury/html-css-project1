@@ -166,18 +166,14 @@ transition: .3s;
  float:right;
  width: 270px;
  }
-
-.about-menu ul{
-
-}
 .about-menu ul li{
-background-image: url(../img/arrow.png);
+position:relative;    
 background-repeat: no-repeat;
 padding-left: 10px;
 margin-bottom: 10px;
 padding-bottom: 10px;
 border-bottom: 1px solid rgb(211, 97, 97);
-
+margin-left: 20px;
 }
 .about-menu ul li a{
  color: rgb(44, 47, 48);
@@ -185,6 +181,12 @@ border-bottom: 1px solid rgb(211, 97, 97);
  font-size: 20px;
  display: block;
  transition: .3s;
+}
+.about-menu ul li i{   
+    position: absolute; 
+    color:tomato;
+    font-size: 20px;   
+    
 }
 .about-menu ul li a:hover{
 color:tomato;
@@ -286,8 +288,9 @@ color:tomato;
      font-size: 22px;
 }
 .contact-address ul li i{
-    color:#ff7720;
+    color:tomato;
     font-size: 18px;
+    padding-right: 10px;
 
 }
  .contact-address ul li span{
