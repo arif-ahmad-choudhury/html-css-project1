@@ -81,8 +81,11 @@ transition: .3s;
      background-color: tomato;
  } 
  /* banner css */
+ .banner-area{
+    background-color: rgb(241, 239, 238);
+ }
  .banner img{
-     width: 100%;
+     width: 100%;    
  }
  /* page banner css */
  .page-banner{
