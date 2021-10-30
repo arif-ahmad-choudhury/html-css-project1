@@ -42,10 +42,11 @@ transition: .3s;
     background-color: #ff7720;
 }
 /* header css */
-
-.header{
+.header-area{
     background-color: #CBCAC8;
-    padding: 20px;
+}
+.header{  
+    padding: 20px 0;
 }
 .logo {
     float: left;
