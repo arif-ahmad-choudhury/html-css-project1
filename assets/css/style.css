@@ -13,7 +13,9 @@ body {
     display: table;
     clear: both;
 }
-
+h1,h2,h3,h4,h5,h6 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .area {
     width:1000px;
     margin: 0 auto;
