@@ -118,14 +118,19 @@ transition: .3s;
      text-transform:uppercase;
 }
  /* service css */
- .services{
 
+ .services-area{
+     background-image: url(../img/banner-img.jpg);
+     background-size: cover;
+    background-position: center;
  }
  .service-title h4{
      text-align: center;
      text-transform: capitalize;
-     font-size:40px;
-     margin:40px 0;
+     font-size:40px;   
+     color: #fff;  
+     margin-bottom: 40px ;
+     padding-top: 40px ;
  }
  .service{
 
@@ -152,9 +157,11 @@ transition: .3s;
  margin-bottom: 25px;
  }
  /* about css  */
+ .about-area{
+    background-color: #ebf1f3;
+ }
  .about{
- padding: 60px 0;
- background-color: #ebf1f3;
+ padding: 60px 0; 
  }
  .about-left{
  float:left;
