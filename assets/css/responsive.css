@@ -19,8 +19,39 @@
     }
  }
  @media only screen and (min-width: 768px) and (max-width: 991px) { 
-     
-
+.area{
+    width:750px;
+}     
+.logo{   
+    width:180px;  
+}
+.menu{ 
+    width:500px;
+}
+.menu ul{ 
+    margin-top:3px;
+}
+.menu ul li a{ 
+   padding:10px;
+}
+.single-service{
+ width:240px;
+ margin-bottom: 15px;
+}
+.single-service h2{
+ font-size:20px;
+ text-transform:capitalize;
+}
+.about-left{
+    width:540px;
+}
+.about-menu{
+    width:190px;
+}
+.about-left h2,.about-menu h2{
+    font-size:20px;
+    margin: bottom 15px;
+}
 }
 @media only screen and (min-width: 768px) and (max-width: 1199.98px) { 
 
