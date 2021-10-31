@@ -1,3 +1,5 @@
+
+/* checking size 1000px */
 @media only screen and (min-width: 992px) and (max-width: 1200px)   { 
     .area { 
         width: 970px;
@@ -8,6 +10,16 @@
     .single-service{       
         width: 303px;       
     }
+
+    .single-page .single-service{
+        width: 293px;      
+    }
+    .single-service:nth-child(4),.single-service:last-child{
+        margin-right: 30px !important;
+    }
+    .single-gallery{ 
+        width: 222px;
+    }
     .about-left{ 
       width:685px;
     }
@@ -16,6 +28,16 @@
     }  
     .about-left h2,.about-menu h2{  
         font-size: 26px;      
+    }
+    .contact-form{ 
+        width: 610px;
+    }
+    .contact-form h2,.contact-address h2{ 
+        font-size: 30px; 
+        margin-bottom: 35px;
+    }
+    .single-gallery{
+        width: 135px;       
     }
  }
  /* checking 800 */
@@ -53,6 +75,10 @@
     font-size:20px;
     margin: bottom 15px;
 }
+.contact-address{ 
+    width: 100%;
+    margin-top: 30px;
+}
 }
 /* checking 400 */
 @media only screen and  (max-width: 767px) { 
@@ -79,6 +105,17 @@
     .about-left h2,.about-menu h2{
         font-size:22px;
         margin: bottom 10px;
+    }
+    .service-page .single-service,.single-gallery{
+        width:100%;       
+    }
+    .page-banner h2{        
+        font-size:35px;
+       line-height: 45px;
+    }
+    .contact-address{
+        width:100%;
+        margin-top: 30px;
     }
 
 }
