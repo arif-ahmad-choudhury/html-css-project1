@@ -1,12 +1,30 @@
-@media (min-width: 768px) and (max-width: 1199.98px) { 
+@media only screen and (min-width: 992px) and (max-width: 1200px)   { 
+    .area { 
+        width: 970px;
+    }
+    .menu{       
+        width: 650px;
+    }
+    .single-service{       
+        width: 303px;       
+    }
+    .about-left{ 
+      width:685px;
+    }
+    .about-menu{ 
+        width:255px;        
+    }  
+    .about-left h2,.about-menu h2{  
+        font-size: 26px;      
+    }
+ }
+ @media only screen and (min-width: 768px) and (max-width: 991px) { 
+     
 
- }
-@media (min-width: 768px) and (max-width: 1199.98px) { 
+}
+@media only screen and (min-width: 768px) and (max-width: 1199.98px) { 
 
- }
-@media (min-width: 768px) and (max-width: 1199.98px) { 
+}
+@media only screen and (min-width: 768px) and (max-width: 1199.98px) { 
 
- }
-@media (min-width: 768px) and (max-width: 1199.98px) { 
-    
- }
+}
