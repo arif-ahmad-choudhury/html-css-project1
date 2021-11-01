@@ -171,7 +171,7 @@ transition: .3s;
  }
  .about-left h2,.about-menu h2{
      text-transform: capitalize;
-     font: size 45px;
+     font-size:  45px;
      margin-bottom:18px;
 
 }
