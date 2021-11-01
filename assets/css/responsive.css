@@ -1,126 +1,165 @@
-
 /* checking size 1000px */
-@media only screen and (min-width: 992px) and (max-width: 1200px)   { 
-    .area { 
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .area {
         width: 970px;
     }
-    .menu{       
+
+    .menu {
         width: 650px;
     }
-    .single-service{       
-        width: 303px;       
+
+    .single-service {
+        width: 303px;
     }
 
-    .single-page .single-service{
-        width: 293px;      
+    .single-page .single-service {
+        width: 293px;
     }
-    .single-service:nth-child(4),.single-service:last-child{
+
+    .single-service:nth-child(4),
+    .single-service:last-child {
         margin-right: 30px !important;
     }
-    .single-gallery{ 
+
+    .single-gallery {
         width: 222px;
     }
-    .about-left{ 
-      width:685px;
+
+    .about-left {
+        width: 685px;
     }
-    .about-menu{ 
-        width:255px;        
-    }  
-    .about-left h2,.about-menu h2{  
-        font-size: 26px;      
+
+    .about-menu {
+        width: 255px;
     }
-    .contact-form{ 
+
+    .about-left h2,
+    .about-menu h2 {
+        font-size: 26px;
+    }
+
+    .contact-form {
         width: 610px;
     }
-    .contact-form h2,.contact-address h2{ 
-        font-size: 30px; 
+
+    .contact-form h2,
+    .contact-address h2 {
+        font-size: 30px;
         margin-bottom: 35px;
     }
-    .single-gallery{
-        width: 135px;       
+
+    .single-gallery {
+        width: 135px;
     }
- }
- /* checking 800 */
- @media only screen and (min-width: 768px) and (max-width: 991px) { 
-.area{
-    width:750px;
-}     
-.logo{   
-    width:180px;  
 }
-.menu{ 
-    width:500px;
+
+/* checking 800 */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .area {
+        width: 750px;
+    }
+
+    .logo {
+        width: 180px;
+    }
+
+    .menu {
+        width: 500px;
+    }
+
+    .menu ul {
+        margin-top: 3px;
+    }
+
+    .menu ul li a {
+        padding: 10px;
+    }
+
+    .single-service {
+        width: 240px;
+        margin-bottom: 15px;
+    }
+
+    .single-service h2 {
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+
+    .about-left {
+        width: 540px;
+    }
+
+    .about-menu {
+        width: 190px;
+    }
+
+    .about-left h2,
+    .about-menu h2 {
+        font-size: 20px;
+        margin: bottom 15px;
+    }
+
+    .contact-address {
+        width: 100%;
+        margin-top: 30px;
+    }
 }
-.menu ul{ 
-    margin-top:3px;
-}
-.menu ul li a{ 
-   padding:10px;
-}
-.single-service{
- width:240px;
- margin-bottom: 15px;
-}
-.single-service h2{
- font-size:20px;
- text-transform:capitalize;
-}
-.about-left{
-    width:540px;
-}
-.about-menu{
-    width:190px;
-}
-.about-left h2,.about-menu h2{
-    font-size:20px;
-    margin: bottom 15px;
-}
-.contact-address{ 
-    width: 100%;
-    margin-top: 30px;
-}
-}
+
 /* checking 400 */
-@media only screen and  (max-width: 767px) { 
+@media only screen and (max-width: 767px) {
     .area {
         width: 320px;
     }
-    .menu,.about-left,.about-menu{
-        width:100%;        
+
+    .menu,
+    .about-left,
+    .about-menu {
+        width: 100%;
     }
-    .about-left{
+
+    .about-left {
         margin-bottom: 30px;
     }
+
     .menu ul {
-        text-align:left;
+        text-align: left;
     }
-    .content-title h2{
-        font-size:28px;
+
+    .content-title h2 {
+        font-size: 28px;
         margin: 25px 0;
     }
-    .single-service{
-        width:100%;
+
+    .single-service {
+        width: 100%;
         margin-bottom: 30px;
     }
-    .about-left h2,.about-menu h2{
-        font-size:22px;
+
+    .about-left h2,
+    .about-menu h2 {
+        font-size: 22px;
         margin: bottom 10px;
     }
-    .service-page .single-service,.single-gallery{
-        width:100%;       
+
+    .service-page .single-service,
+    .single-gallery {
+        width: 100%;
     }
-    .page-banner h2{        
-        font-size:35px;
-       line-height: 45px;
+
+    .page-banner h2 {
+        font-size: 35px;
+        line-height: 45px;
     }
-    .contact-address{
-        width:100%;
+
+    .contact-address {
+        width: 100%;
         margin-top: 30px;
     }
 
 }
-@media only screen and (min-width: 480px) and (max-width: 767px) { 
-.area{
-    width: 450px;
-}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .area {
+        width: 450px;
+    }
 }
